@@ -1,0 +1,55 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+
+body {
+    background-image: linear-gradient(180deg, rgb(234, 192, 238) 23.8%, rgb(211, 167, 167) 92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: darksalmon;
+    border-radius: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+
+.btn:focus {
+    outline: none;
+}
+    
+
+.footer {
+    width: 75%;
+    margin: 0 auto;
+    background: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 3rem;
+} 
